@@ -2,7 +2,7 @@
 
 from product_manager import ProductManager
 from product import Product
-from cart import Cart
+
 import random
 
 def main():
@@ -38,3 +38,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
