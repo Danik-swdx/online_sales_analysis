@@ -20,3 +20,9 @@ class ProductManager:
         total_value = sum(product.price * product.quantity for product in self.products)
         return total_value
     
+    def remove_duplicates(self):
+     unique = {}
+     for product in self.products:
+        unique[product.name] = product  # înlocuiește duplicatele
+     self.products = list(unique.values())
+
